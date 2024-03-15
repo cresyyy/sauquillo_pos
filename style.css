@@ -1,0 +1,64 @@
+body {
+    background-image: url('bgpic3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+
+}
+
+.container{
+    background-color: white;
+    padding: 15px 20px 15px;
+    border-radius: 30px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  li {
+    text-align: center;
+    flex: 1;
+    text-decoration: 2px underline;
+    text-decoration-color: #ffbf00;
+  }
+
+button {
+    background-color: #ffbf00;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+button:hover{
+    background-color: black;
+    transition: 0.5s;
+    color: white;
+}
+select,
+input[type="number"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+#food-items-container {
+    margin-top: 1rem;
+}
